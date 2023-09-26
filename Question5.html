@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <!-- Build an HTML survey form that collects the user's name, age, gender,
+         and allows them to select their favorite programming language from a dropdown list -->
+
+         <div>
+            <h1> Survey Form</h1>
+            <form action="">
+                <label for="first_name">First Name:</label>
+                <input type="text" name="name" id="name" placeholder="Novestus"><br>
+                <label for="second_name">Second Name:</label>
+                <input type="text" name="name" id="name" placeholder="Rotich"><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="gender" value="Male">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender" value="Female">
+                <label for="gender">Female</label><br>
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age"><br>
+
+                <div class="form_language">
+                    <label for="language">Programming Language:</label>
+                    <select name="language" id="language">
+                        <option value="Html">Html</option>
+                        <option value="Css">Css</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Java">Java</option>
+                        <option value="Java">Python</option>
+                        <option value="Java">C++</option>
+                        <option value="Java">Php</option>
+                    </select>
+                </div>
+        
+            </form>
+         </div>
+</body>
+</html>

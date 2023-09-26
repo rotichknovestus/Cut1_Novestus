@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participant's Info</title>
+</head>
+<body>
+    <form action="submit.html">
+        <h1>Participant's personal information</h1>
+        <div>
+            <label for="first_name">First Name:</label>
+            <input type="text" name="name" id="name" placeholder="Novestus"><br>
+            <label for="second_name">Second Name:</label>
+            <input type="text" name="name" id="name" placeholder="Rotich"><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender" value="Male">
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="gender" value="Female">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" id="gender" value="others">
+            <label for="gender">Others</label><br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age"><br>
+            <label for="message">Please provide your feedback:</label><br>
+            <textarea name="message" id="message" cols="20" rows="5"></textarea><br>
+
+            <label for="checkbox">Kindly select your hobbies and interests</label><br>
+            <input type="checkbox" name="checkbox" id="hiking" value="hiking">
+            <label for="hiking">Hiking</label><br>
+            <input type="checkbox" name="checkbox" id="reading" value="reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" name="checkbox" id="gaming" value="gaming">
+            <label for="gaming">Gaming</label><br>
+            <input type="checkbox" name="checkbox" id="travel" value="gaming">
+            <label for="travel">Travel</label><br>
+            <input type="checkbox" name="checkbox" id="sport" value="gaming">
+            <label for="sport">Sports</label><br>
+
+            <label for="range">Kindly rate their experience on a scale of (1-5), with 1 being the lowest and 5 being the highest</label><br>
+            <input type="range" name="range" id="range" value="number"><br>
+            <label for="message">Do you have any additional comments or suggestions?</label><br>
+            <textarea name="message" id="message" cols="20" rows="5"></textarea><br>
+
+            <input type="submit" Submit><br>
+
+            <a href="survey_result.html" target="_blank">View survey results here.</a>
+
+        </div>
+    </form>
+    
+</body>
+</html>

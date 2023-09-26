@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Survey_form2</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <div>
+        <form action="submit.html">
+            <label for="user_name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="user name"><br>
+            <label for="user_age">Age:</label>
+            <input type="number" name="age" id="age" placeholder=""><br>
+            <div class="user_gender">
+                <label for="gender">Gender:</label>
+                <select name="language" id="language">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="feedback">Feedback:</label>
+                <textarea name="feedback" id="feedback" cols="20" rows="4"></textarea><br>
+                <label for="checkbox">Which of the following activities do you enjoy?</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox" value="hiking">
+                <label for="hiking">Hiking</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox" value="reading">
+                <label for="reading">Reading</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox" value="gaming">
+                <label for="gaming">Gaming</label><br>
+                <label for="range">Rate our service (1-5)</label><br>
+                <input type="range" name="range" id="range" value="number">
+
+                <label for="hear">How did you hear about us?</label><br>
+                <input type="radio" name="internet" id="internet" value="">
+                <label for="internet">Internet</label><br>
+                <input type="radio" name="reading" id="reading" value="">
+                <label for="reading">Friend</label><br>
+                <input type="radio" name="advert" id="advert" value="a">
+                <label for="advert">Advertisement</label><br>
+            </div>
+            <input type="submit" Submit>
+
+        </form>
+    </div>
+</body>
+</html>
